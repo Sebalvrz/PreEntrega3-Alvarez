@@ -80,7 +80,7 @@ function addProductToCart(title, price, productImg) {
                 customClass: {
                     title: 'titulo',                    
                 },              
-            })
+            });
             return;
         }
     }
