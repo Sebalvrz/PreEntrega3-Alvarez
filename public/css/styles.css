@@ -519,6 +519,41 @@ hr {
     border-top: 1px solid black;
 }
 
+/* sweet alerts */
+
+.titulo {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    color: black;  
+}
+
+.swal2-confirm {
+    color: black !important;
+    font-size: 12px !important;
+    background-color: white !important;
+    border: 2px solid !important;
+    border-color: black !important;
+    padding: 12px 25px 12px 25px !important;
+    transition-duration: 0.3s !important;
+    border-radius: 0 !important;
+}
+.swal2-confirm:hover {
+    background-color: black !important;
+    color: white !important;
+    margin: 0 !important;
+}
+
+.swal2-confirm {
+    margin: 0 !important;
+    border-color: black !important;
+}
+
+.swal2-popup {
+    background-color: white !important;
+    border-radius: 0 !important;
+}
+
 /* media queries */
 
 @media (max-width: 1080px) {

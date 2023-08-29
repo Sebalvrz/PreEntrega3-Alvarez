@@ -72,7 +72,15 @@ function addProductToCart(title, price, productImg) {
     var cartItemsNames = cartItems.getElementsByClassName("cart-product-title");
     for ( var i = 0; i< cartItemsNames.length; i++) {
         if (cartItemsNames[i].innerText == title) {
-            alert("You have already added this item to cart");
+            Swal.fire ({
+                title: 'YOU HAVE ALREADY ADDED THIS ITEM TO YOUR BAG',
+                confirmButtonText: 'BACK',
+                backdrop: false,
+                width: '30rem',
+                customClass: {
+                    title: 'titulo',                    
+                },              
+            })
             return;
         }
     }
